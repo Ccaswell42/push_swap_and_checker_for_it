@@ -35,3 +35,14 @@ The last element becomes the first one.
 rrb (reverse rotate b): Shift down all elements of stack b by 1. The last element becomes the first one.
 
 rrr : rra and rrb at the same time.
+
+
+//////////////////////////////////////
+Checker:
+
+
+Read commands from standart input;
+
+Write: "OK" if stack 'A' is sorted and stack 'B' is empty
+
+"KO" if not
