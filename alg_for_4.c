@@ -65,12 +65,10 @@ void	push_min_b(t_list **stack_a, t_list **stack_b, int ind)
 void	alg_for_4(t_list **stack_a, t_list **stack_b)
 {
 	t_list	*temp_a;
-	t_list	*temp_b;
 	int		ind;
 
 	ind = 0;
 	temp_a = *stack_a;
-	temp_b = *stack_b;
 	while (temp_a)
 	{
 		if (temp_a->index == 0)

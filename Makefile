@@ -21,6 +21,7 @@ all: $(NAME)
 $(NAME): $(OBJS) $(HEAD) $(LIBFT)
 		gcc -o push_swap $(OBJS) -L./libft -lft
 
+
 $(LIBFT):
 		$(MAKE) -C ./libft
 		

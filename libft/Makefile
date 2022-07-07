@@ -7,11 +7,11 @@ SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft_split.c \
 					ft_putstr_fd.c  ft_strjoin.c ft_strmapi.c ft_strtrim.c ft_putnbr_fd.c ft_striteri.c
 OBJS			= $(SRCS:%.c=%.o)
 
-HEADER			= libft.h
+HEADERDIR		= .
 
 CC				= gcc
 RM				= rm -f
-FLAGS			= -Wall -Wextra -Werror -I$(HEADER)
+FLAGS			= -Wall -Wextra -Werror -I $(HEADERDIR)
 
 NAME			= libft.a
 .PHONY:			all clean fclean re
